@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/introjs.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <label for="email">email</label>
+        <input data-intro="Please Enter Email" type="text" id="email" name="email" placeholder="please enter email">
+        <label for="name">name</label>
+        <input data-intro="Please Enter name" type="text" id="name" name="name" placeholder="please enter name">
+        <label for="password">password</label>
+        <input data-intro="Please Enter password" type="text" id="password" name="password" placeholder="please enter password">
+        <button data-intro="Please submit" type="submit">Submit</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/intro.min.js"></script>
+    <script>
+        introJs().start()
+    </script>
+</body>
+</html>
